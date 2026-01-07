@@ -35,7 +35,10 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-12 sm:py-16 lg:py-20 bg-slate-50 dark:bg-slate-800">
+    <section
+      id="experience"
+      className="py-12 sm:py-16 lg:py-20 bg-slate-50 dark:bg-slate-800"
+    >
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -50,7 +53,7 @@ const Experience = () => {
         <div className="relative">
           {/* Timeline line - hidden on mobile, visible on lg+ */}
           <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300 dark:bg-gray-600"></div>
-          
+
           {/* Mobile timeline line - visible on mobile, hidden on lg+ */}
           <div className="lg:hidden absolute left-4 sm:left-6 top-0 h-full w-0.5 bg-gray-300 dark:bg-gray-600"></div>
 
