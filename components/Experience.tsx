@@ -10,10 +10,10 @@ const Experience = () => {
     },
     {
       id: 2,
-      year: "November 2025",
-      title: "Volunteer at Wing Bank Career",
+      year: "July 2025",
+      title: "Active Member of Codera",
       description:
-        "Assisted in distributing job opportunity letters for various positions at Wing Bank Company. Gained valuable experience learning about different job roles, recruitment processes, and understanding the professional requirements and responsibilities of positions within the banking sector.",
+        "Joined Codera, a freelance development team specializing in mobile app and web development as a full-stack developer. Collaborating on various projects under the supervision of Mr. CHUN Thavorac, lecturer at the Institute of Technology of Cambodia, to deliver high-quality software solutions.",
       side: "right",
     },
     {
@@ -26,10 +26,10 @@ const Experience = () => {
     },
     {
       id: 4,
-      year: "July 2025",
-      title: "Active Member of Codera",
+      year: "November 2025",
+      title: "Volunteer at Wing Bank Career",
       description:
-        "Joined Codera, a freelance development team specializing in mobile app and web development as a full-stack developer. Collaborating on various projects under the supervision of Mr. CHUN Thavorac, lecturer at the Institute of Technology of Cambodia, to deliver high-quality software solutions.",
+        "Assisted in distributing job opportunity letters for various positions at Wing Bank Company. Gained valuable experience learning about different job roles, recruitment processes, and understanding the professional requirements and responsibilities of positions within the banking sector.",
       side: "right",
     },
   ];
