@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-center text-gray-400 text-sm">
-            <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+            <p>&copy; {currentYear} VUTH MENGHUOR. All rights reserved.</p>
             <p className="mt-1">Built with Next.js & Tailwind CSS</p>
           </div>
         </div>
