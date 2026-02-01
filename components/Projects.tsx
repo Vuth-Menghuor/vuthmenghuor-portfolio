@@ -5,67 +5,52 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Carbodia E-Commerce Platform",
       description:
-        "A full-stack e-commerce platform with user authentication, product management, shopping cart, and payment integration.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "Stripe"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "A full-stack e-commerce platform for vehicles, featuring user authentication, browsing pages, detailed engine information views, reservation capabilities, and wishlist functionality. Built with modern responsive design and intuitive UX for an enhanced user experience. A showcase project for school.",
+      image: "/images/projects-images/carbodia-ecommerce-platform.png",
+      technologies: [
+        "Vue.js",
+        "Vite",
+        "Pinia",
+        "Vue Router",
+        "GSAP",
+        "PocketBase",
+        "CSS",
+      ],
+      github: "https://github.com/Vuth-Menghuor/carbodia",
+      demo: "https://carbodia.pages.dev/",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "GPS Tracking System",
+
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop interface, and team collaboration features.",
-      image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
-      technologies: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "Developed a Django backend for a GPS tracking system with real-time data retrieval and API endpoints for device monitoring. Improved database operations and data processing, integrated with Nuxt.js, and prepared technical documentation for smooth deployment.",
+      image: "/images/projects-images/gps-tracking-system.png",
+      technologies: ["Django", "Nuxt.js", "PostgreSQL"],
+      github: "https://github.com/Vuth-Menghuor/GPS-Tracking-System.git",
+      demo: "https://gps-tracking-system.pages.dev/",
     },
     {
       id: 3,
-      title: "Social Media Dashboard",
+      title: "Motion Cycles E-Commerce",
       description:
-        "Analytics dashboard for tracking social media metrics across multiple platforms with data visualization and reporting.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
-      technologies: ["React", "Chart.js", "Express", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "Developed a full-stack e-commerce platform for bike sales using Laravel backend and Vue.js frontend, with user authentication, product catalog, and order processing. Implemented features like shopping cart, favorites, product reviews, discounts, and secure KHQR payments via Bakong API, and an admin panel to manage products, order, users, and payment. Improved backend operations, structured RESTful API, and applied modern design with Tailwind CSS for smooth management and user experience. Institute of Technology of Cambodia.",
+      image: "/images/projects-images/motion-cycle-ecommerce-plateform.png",
+      technologies: ["Laravel", "Vue.js", "Tailwind CSS", "Bakong API"],
+      github: "https://github.com/Vuth-Menghuor/motion-cycles-platform.git",
+      demo: "https://a57bb3a9.motion-cycles-platform.pages.dev/authentication/sign_in",
     },
     {
       id: 4,
-      title: "Weather Forecast App",
+      title: "LED Textboard",
       description:
-        "A responsive weather application that provides real-time weather information and 7-day forecasts for any location.",
-      image: "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?w=800",
-      technologies: ["Next.js", "Tailwind CSS", "OpenWeather API"],
-      github: "https://github.com",
-      demo: "https://example.com",
-    },
-    {
-      id: 5,
-      title: "Blog Platform",
-      description:
-        "A modern blog platform with markdown support, syntax highlighting, and SEO optimization for technical content.",
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800",
-      technologies: ["Next.js", "MDX", "Tailwind CSS"],
-      github: "https://github.com",
-      demo: "https://example.com",
-    },
-    {
-      id: 6,
-      title: "Fitness Tracker",
-      description:
-        "Mobile-responsive fitness tracking app with workout logging, progress charts, and personalized recommendations.",
-      image:
-        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "Developed an interactive LED text display web app using HTML5 Canvas with real-time rendering, customizable colors, fonts, and sizes, and a theme system with 12+ styles. Implemented text animations (scroll, float), effects (wobble, 3D, flame, blink), background animations (rectangles, flow field, fireworks), and responsive UI controls for seamless user customization.",
+      image: "/images/projects-images/led-textboard.png",
+      technologies: ["HTML5 Canvas", "JavaScript", "CSS"],
+      github: "https://github.com/Vuth-Menghuor/LED-Textboard.git",
+      demo: "https://led-textboard.pages.dev",
     },
   ];
 
@@ -82,7 +67,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -98,7 +83,7 @@ const Projects = () => {
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   {/* Dark gradient overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent from-10% via-slate-900/50 via-50% to-slate-900/95"></div>
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent from-30% via-slate-900/50 via-50% to-slate-900/95"></div>
                   {/* Blur effect with SOFT gradient transition - starts at 30% and gradually increases to bottom */}
                   <div
                     className="absolute inset-0 backdrop-blur-[14px]"
