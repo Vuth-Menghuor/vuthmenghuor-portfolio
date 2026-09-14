@@ -78,7 +78,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="relative max-w-5xl mx-auto">
+        <div className="relative max-w-[52rem] mx-auto">
           <div className="absolute left-4 sm:left-6 top-0 h-full w-0.5 bg-gray-300 dark:bg-gray-600" />
           <div className="space-y-8 sm:space-y-10">
             {projects.map((project) => (
@@ -105,10 +105,10 @@ const Projects = () => {
                 <div className="absolute inset-0 rounded-2xl overflow-hidden">
                   {project.id === 5 ? (
                     <div className="absolute inset-0 bg-white">
-                      <div className="absolute -left-[3%] top-2 h-[72%] w-[78%] transition-transform duration-500 group-hover:scale-105">
+                      <div className="absolute left-[3%] top-2 h-[72%] w-[78%] transition-transform duration-500 group-hover:scale-105">
                         <Image src={project.image} alt={`${project.title} desktop view`} fill className="object-contain object-left-top" />
                       </div>
-                      <div className="absolute right-[5%] top-2 h-[58%] w-[34%] transition-transform duration-500 group-hover:scale-105">
+                      <div className="absolute right-[6%] top-2 h-[58%] w-[34%] transition-transform duration-500 group-hover:scale-105">
                         <Image src="/images/projects-images/customs-ai-assistant-mobile.png" alt={`${project.title} mobile view`} fill className="object-contain object-right-top" />
                       </div>
                     </div>
