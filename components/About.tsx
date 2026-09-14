@@ -30,15 +30,18 @@ const About = () => {
                 Personal Profile
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300">
-                I&apos;m a full-stack developer with over 2 years of experience
-                specializing in web applications and enterprise solutions. My
-                passion lies in creating user-friendly experiences that combine
-                elegant design with robust functionality.
+                I&apos;m a recent Information and Communication Engineering graduate
+                from the Institute of Technology of Cambodia. I build
+                responsive, user-friendly web interfaces with Vue.js and
+                Nuxt.js, with a focus on thoughtful UI design and reliable API
+                integration.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 mt-3">
-                Currently expanding my expertise in modern full-stack
-                technologies and actively seeking opportunities to contribute to
-                innovative projects and collaborative teams.
+                Through e-commerce and customs AI chatbot projects, I&apos;ve gained
+                practical experience designing clear digital experiences for
+                complex workflows. I&apos;m seeking an opportunity to contribute to
+                government or fintech products while growing with a
+                collaborative development team.
               </p>
             </div>
 

@@ -38,9 +38,9 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8 px-2 sm:px-0">
-              I'm a full-stack developer specializing in building exceptional
-              digital experiences. Currently, I'm focused on building
-              accessible, human-centered products.
+              I build responsive, user-friendly web applications with Vue.js
+              and Nuxt.js, combining thoughtful UI design with reliable API
+              integration for clear, human-centered digital experiences.
             </p>
 
             {/* CTA Buttons */}

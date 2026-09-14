@@ -45,13 +45,13 @@ const Contact = () => {
     {
       icon: FaPhone,
       title: "Phone",
-      value: "069 552 601",
-      link: "tel:+855069552601",
+      value: "+855 69 552 601",
+      link: "tel:+85569552601",
     },
     {
       icon: FaMapMarkerAlt,
       title: "Location",
-      value: "Chroy Chongva, OCIC, Phnom Penh",
+      value: "Chrouy Chongva, OCIC Street, Phnom Penh",
       link: null,
     },
   ];

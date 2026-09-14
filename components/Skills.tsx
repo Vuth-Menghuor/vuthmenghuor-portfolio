@@ -10,6 +10,9 @@ import {
   FaJs,
   FaPython,
   FaJava,
+  FaChartLine,
+  FaBolt,
+  FaBook,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -25,6 +28,7 @@ import {
   SiNestjs,
   SiFlutter,
   SiDart,
+  SiVuetify,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -41,6 +45,10 @@ const Skills = () => {
         { name: "HTML5", icon: FaHtml5 },
         { name: "CSS3", icon: FaCss3Alt },
         { name: "Tailwind CSS", icon: SiTailwindcss },
+        { name: "Pinia", icon: FaDatabase },
+        { name: "Vuetify", icon: SiVuetify },
+        { name: "ECharts", icon: FaChartLine },
+        { name: "Server-Sent Events", icon: FaBolt },
       ],
     },
     {
@@ -54,6 +62,8 @@ const Skills = () => {
         { name: "Java", icon: FaJava },
         { name: "PostgreSQL", icon: SiPostgresql },
         { name: "REST APIs", icon: FaDatabase },
+        { name: "API Integration", icon: FaDatabase },
+        { name: "OpenAPI / Swagger", icon: FaBook },
       ],
     },
     {

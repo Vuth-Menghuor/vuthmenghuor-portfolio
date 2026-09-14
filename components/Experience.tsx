@@ -2,32 +2,54 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      year: "February 2026 – September 2026",
+      title: "Customs Artificial Intelligent Assistant",
+      organization: "General Department of Customs and Excise of Cambodia",
+      description:
+        "Developed and deployed a responsive Nuxt 4 and Vue 3 chatbot platform for Cambodian customs. Built HS-code lookup, duty calculation, trade-data queries, authentication, shared chats, feedback, English/Khmer UI, and SSE response streaming with reusable renderers for Markdown, tables, ECharts, citations, and clarification questions—contributing to approximately 80% team-tested response accuracy.",
+      side: "left",
+    },
+    {
+      id: 2,
+      year: "July 2025 – October 2025",
+      title: "GPS Tracking System",
+      organization: "Mango Finance PLC",
+      description:
+        "Developed a Django backend for a GPS tracking system with real-time data retrieval and API endpoints for device monitoring. Improved database operations and data processing, integrated with Nuxt.js, and prepared technical documentation for smooth deployment.",
+      side: "right",
+    },
+    {
+      id: 3,
       year: "May 2023",
       title: "Sea Game Volunteer",
+      organization: "SEA Games Cambodia",
       description:
         "Volunteered for the SEA Games Cambodia on the badminton team. Gained real-world experience communicating with athletes from other Asian countries and developed strong teamwork and responsibility skills while supporting international sporting events in a fast-paced environment.",
       side: "left",
     },
     {
-      id: 2,
+      id: 4,
       year: "July 2025",
       title: "Active Member of Codera",
+      organization: "Codera",
       description:
         "Joined Codera, a freelance development team specializing in mobile app and web development as a full-stack developer. Collaborating on various projects under the supervision of Mr. CHUN Thavorac, lecturer at the Institute of Technology of Cambodia, to deliver high-quality software solutions.",
       side: "right",
     },
     {
-      id: 3,
+      id: 5,
       year: "November 2025",
       title: "Participant at Spring Internship Program",
+      organization: "Spring Education Center",
       description:
         "Participated in the Spring Education Center internship program. Collaborated in random group team assignments, distributed informational letters about the school, and maintained daily and weekly reports. Gained valuable insights into marketing strategies and sales performance analysis throughout the internship.",
       side: "left",
     },
     {
-      id: 4,
+      id: 6,
       year: "November 2025",
       title: "Volunteer at Wing Bank Career",
+      organization: "Wing Bank Company",
       description:
         "Assisted in distributing job opportunity letters for various positions at Wing Bank Company. Gained valuable experience learning about different job roles, recruitment processes, and understanding the professional requirements and responsibilities of positions within the banking sector.",
       side: "right",
@@ -101,6 +123,14 @@ const Experience = () => {
                   >
                     {exp.title}
                   </h3>
+
+                  <p
+                    className={`text-sm sm:text-base text-primary-600 dark:text-primary-400 font-medium mb-3 text-left ${
+                      exp.side === "left" ? "lg:text-right" : "lg:text-left"
+                    }`}
+                  >
+                    {exp.organization}
+                  </p>
 
                   {/* Card */}
                   <div className="bg-white dark:bg-slate-900 p-4 sm:p-6 rounded-lg sm:rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-shadow duration-300">
