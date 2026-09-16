@@ -101,15 +101,15 @@ const Projects = () => {
                   </p>
                 </div>
                 <div className="p-2 border border-gray-300 dark:border-white/10 rounded-2xl bg-white dark:bg-transparent">
-                  <div className="group relative overflow-hidden border border-gray-200 dark:border-white/10 rounded-2xl min-h-[500px]">
+                  <div className="group relative overflow-hidden border border-gray-200 dark:border-white/10 rounded-2xl">
                 <div className="absolute inset-0 rounded-2xl overflow-hidden">
                   {project.id === 5 ? (
-                    <div className="absolute inset-0 bg-white">
-                      <div className="absolute left-[3%] top-2 h-[72%] w-[78%] transition-transform duration-500 group-hover:scale-105">
-                        <Image src={project.image} alt={`${project.title} desktop view`} fill className="object-contain object-left-top" />
+                    <div className="absolute inset-x-0 top-0 flex h-48 items-center justify-center gap-1 bg-white px-3 sm:h-64 sm:gap-4 sm:px-8">
+                      <div className="relative h-full w-[72%] transition-transform duration-500 group-hover:scale-105">
+                        <Image src={project.image} alt={`${project.title} desktop view`} fill className="object-contain" />
                       </div>
-                      <div className="absolute right-[6%] top-2 h-[58%] w-[34%] transition-transform duration-500 group-hover:scale-105">
-                        <Image src="/images/projects-images/customs-ai-assistant-mobile.png" alt={`${project.title} mobile view`} fill className="object-contain object-right-top" />
+                      <div className="relative h-[92%] w-[22%] transition-transform duration-500 group-hover:scale-105">
+                        <Image src="/images/projects-images/customs-ai-assistant-mobile.png" alt={`${project.title} mobile view`} fill className="object-contain" />
                       </div>
                     </div>
                   ) : (
@@ -122,7 +122,7 @@ const Projects = () => {
                   />
                 </div>
 
-                <div className="relative p-6 pt-52 min-h-[500px] flex flex-col justify-end">
+                <div className="relative p-6 pt-48 sm:pt-64">
                   <div>
                     <p className="text-gray-300 mb-4 line-clamp-3 text-sm leading-relaxed">{project.description}</p>
 
