@@ -25,7 +25,7 @@ const Projects = () => {
       image: "/images/projects-images/motion-cycle-ecommerce-plateform.png",
       technologies: ["Laravel", "Vue.js", "Tailwind CSS", "Bakong API"],
       github: "https://github.com/Vuth-Menghuor/motion-cycles-platform.git",
-      demo: "https://a57bb3a9.motion-cycles-platform.pages.dev/authentication/sign_in",
+      demo: "https://motion-cycles-web.onrender.com",
     },
     {
       id: 2,
