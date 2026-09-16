@@ -60,7 +60,7 @@ const Navbar = () => {
 
             {/* Resume Button */}
             <a
-              href="/resume.pdf"
+              href="/Vuth%20Menghuor%20%E2%80%94%20Curriculum%20Vitae.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 font-medium"
@@ -123,7 +123,7 @@ const Navbar = () => {
 
             {/* Resume Button - Mobile */}
             <a
-              href="/resume.pdf"
+              href="/Vuth%20Menghuor%20%E2%80%94%20Curriculum%20Vitae.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-3 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 font-medium text-center mx-2"
